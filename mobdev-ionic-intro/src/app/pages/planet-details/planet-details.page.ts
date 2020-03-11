@@ -15,7 +15,7 @@ export class PlanetDetailsPage implements OnInit {
 
   ngOnInit() {
     let id = this.activatedRoute.snapshot.paramMap.get('id');
-    this.api.getPlanets(id).subscribe(res => {
+    this.api.getPlanet(id).subscribe(res => {
       this.planet = res;
     });
   }

@@ -15,7 +15,7 @@ films: Observable<any>;
   constructor(private router: Router, private api: ApiService) { }
 
   ngOnInit() {
-      this.people = this.api.getPeople();
+      //this.people = this.api.getPeople();
   }
 
 openDetails(people) {

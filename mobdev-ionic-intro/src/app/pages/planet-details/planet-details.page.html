@@ -11,7 +11,14 @@
 
   <ion-card *ngIf="planet">
     <ion-card-content>
-      {{ planet.opening_crawl }}
+        <p>Rotation Period: {{ planet.rotation_period}}</p>
+        <p>Orbital Period: {{ planet.orbital_period}}
+        <p>Diameter: {{ planet.diameter}}
+        <p>Climate: {{ planet.climate}}
+        <p>Gravity: {{ planet.gravity}}
+        <p>Terrain: {{ planet.terrain}}
+        <p>Surface Water: {{ planet.surface_water}}
+        <p>Population: {{ planet.population}}
     </ion-card-content>
   </ion-card>
 
